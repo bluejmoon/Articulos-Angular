@@ -44,6 +44,12 @@ export class AppComponent {
       artist: 'aespa',
       type: 'EP',
       year: 2023
+    },
+    {
+      name: 'Apocalypse: From Us',
+      artist: 'Dreamcatcher',
+      type: 'EP',
+      year: 2023
     }
   ]
 
