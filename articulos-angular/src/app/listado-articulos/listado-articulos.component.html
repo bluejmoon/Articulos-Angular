@@ -1,1 +1,11 @@
-
+<table border="1">
+    <tr class="categories">
+        <td>Name</td><td>Type</td><td>Artist</td><td>Year</td>
+    </tr>
+    <tr *ngFor="let favorite of favorites" class="elements">
+        <td>{{favorite.name}}</td>
+        <td>{{favorite.type}}</td>
+        <td>{{favorite.artist}}</td>
+        <td>{{favorite.year}}</td>
+    </tr>
+</table>
